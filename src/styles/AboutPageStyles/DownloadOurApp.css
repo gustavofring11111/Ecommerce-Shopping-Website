@@ -1,0 +1,42 @@
+.download-page-wrapper{
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  padding: 30px 60px;
+  width: 100%;
+}
+
+.download-page-wrapper h1{
+  font-size: 45px;
+}
+
+.download-page-wrapper h1 span{
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+  transition: all 0.3s;
+}
+
+.download-page-wrapper h1 span:hover{
+  color: purple;
+}
+
+.download-page-wrapper video{
+  width: 75%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+@media (max-width:560px) {
+ 
+    .download-page-wrapper h1{
+      font-size: 35px;
+    
+  }
+}
+
+@media (max-width:470px) {
+  .download-page-wrapper h1{
+    font-size: 28px;
+}
+}

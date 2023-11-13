@@ -1,0 +1,339 @@
+.banner-section-div{
+  width: 100%;
+  padding: 60px 80px;
+}
+
+.first-line{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.crazy-deals-div{
+  display: flex;
+  align-items: center;
+  width: 49%;
+  height: 290px;
+  background-image: url(../Images/crazy-deals.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0px 30px;
+}
+
+
+.crazy-deals-text-div{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.crazy-deals-div h3{
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.crazy-deals-div h2{
+  font-size: 30px;
+  font-weight: 800;
+  height: 48px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.crazy-deals-div p{
+  font-size: 15px;
+  color: white;
+  margin-top: 0px;
+}
+
+.crazy-deals-div button{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  background-color: transparent;
+  color: white;
+  padding: 6px 8px 6px 8px;
+  border-radius: 3px;
+  border: 1px solid white;
+  transition: all 0.3s;
+  cursor: pointer;
+
+}
+
+.crazy-deals-div button:hover{
+  border: none;
+  background-color: #088178;
+}
+
+.spring-summer-div{
+  width: 49%;
+  height: 290px;
+  background-image: url(../Images/technology-image.avif);
+  background-size: cover;
+}
+
+.spring-summer-div h3{
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 0px;
+}
+
+
+.spring-summer-div h2{
+  font-size: 30px;
+  font-weight: 800;
+  height: 48px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.spring-summer-div p{
+  font-size: 15px;
+  color: white;
+  margin-top: 0px;
+}
+
+.spring-summer-div button{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  background-color: transparent;
+  color: white;
+  padding: 6px 8px 6px 8px;
+  border-radius: 3px;
+  border: 1px solid white;
+  transition: all 0.3s;
+  cursor: pointer;
+
+}
+
+.spring-summer-div button:hover{
+  border: none;
+  background-color: #088178;
+}
+
+.spring-summer-text-div{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 75px;
+  margin-left: 20px;
+}
+
+.second-line{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 15px;
+  column-gap: 7px;
+}
+
+.seasonal-sale{
+  display: flex;
+  background-image: url(../Images/seasonal-sale.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 31%;
+  height: 180px;
+  align-items: center;
+}
+
+.seasonal-sale-text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.seasonal-sale h2{
+  height: 46px;
+  font-size: 25px;
+  min-width: 100%;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+}
+
+.seasonal-sale p{
+  font-weight: 600;
+  color: #ec544e;
+
+}
+
+.new-footwear{
+  width: 38%;
+}
+
+.t-shirt{
+  width: 31%;
+}
+
+.new-footwear{
+  display: flex;
+  text-align: start;
+  background-image: url(../Images/new-footwear.jpg);
+  background-position: left;
+  background-size: cover;
+  align-items: center;
+  height: 180px;
+}
+
+.new-footwear-text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.new-footwear h2{
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  height: 40px;
+  color: white;
+}
+
+.new-footwear p{
+  font-weight: 600;
+  color: #ec544e;
+}
+
+.t-shirt {
+  display: flex;
+  background-image: url(../Images/t-shirt-image.jpg);
+  background-position: right;
+  background-size: cover;
+  height: 180px;
+  align-items: center;
+  text-align: start;
+}
+
+.t-shirt-text{
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 15px;
+}
+
+.t-shirt h2{
+  font-size: 25px;
+  font-weight: 900;
+  text-transform: uppercase;
+  height: 40px;
+  color: white;
+}
+
+.t-shirt p{
+  font-weight: 600;
+  color: #ec544e;
+}
+
+@media (max-width:880px){
+  .seasonal-sale h2{
+    height: 39px;
+    font-size: 20px;
+  }
+
+  .new-footwear h2{
+    font-size: 16px;
+  }
+
+  .t-shirt-text h2{
+    font-size: 20px;
+  }
+}
+
+@media (max-width:800px) {
+  .banner-section-div{
+    width: 100%;
+    padding: 60px 20px;
+  }
+
+  .first-line{
+    min-width: 100%;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .crazy-deals-div{
+    height: 52vh;
+    width: 100%;
+    background-size: 100% 58vh;
+    background-position: center;
+  }
+
+  .spring-summer-div{
+    width: 100%;
+    height: 52vh;
+    background-size: cover;
+  }
+
+  .second-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .seasonal-sale p{
+    font-size: 11px;
+    margin-top: 17px;
+  }
+
+  .new-footwear{
+    background-position: center;
+  }
+
+  .t-shirt {
+  
+    background-position: center;
+   
+  }
+}
+
+@media (max-width:450px) {
+  .seasonal-sale h2{
+    height: 39px;
+    font-size: 17px;
+  }
+
+  .seasonal-sale p{
+    font-size: 10px;
+  }
+
+  .new-footwear h2{
+    font-size: 14px;
+  }
+
+  .new-footwear p{
+    font-size: 10px;
+  }
+
+  .t-shirt-text h2{
+    font-size: 17px;
+  }
+
+  .t-shirt-text p {
+    font-size: 10px;
+  }
+
+  .seasonal-sale-text{
+    margin-left: 5px;
+  }
+
+  .new-footwear-text{
+    margin-left: 5px;
+  }
+
+  .t-shirt-text{
+    margin-left: 5px;
+
+  }
+}
+  
+

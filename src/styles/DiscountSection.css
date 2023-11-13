@@ -1,0 +1,65 @@
+.discount-sectioin-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 240px;
+  background-image: url('../Images/shopping-image.jpg');
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: 100% 100% ;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.discount-sectioin-div h5{
+  color: white;
+}
+
+.discount-sectioin-div h2{
+  font-size: 35px;
+  color: white;
+}
+
+.discount-sectioin-div h2 span{
+  color: red;
+}
+
+.discount-sectioin-div button{
+  border: none;
+  border-radius: 2px;
+  font-family: 'Poppins', sans-serif;  padding: 8px 10px 8px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.discount-sectioin-div button:hover{
+  color: white;
+  background-color: #088178;
+}
+
+@media (max-width:815px) {
+  .discount-sectioin-div{
+    height: 45vh;
+  }
+
+  .discount-sectioin-div h2{
+    font-size: 22px;
+    color: white;
+    height: 37px;
+  }
+}
+
+@media (max-width:700px) {
+  .discount-sectioin-div{
+    height: 35vh;
+  }
+
+  .discount-sectioin-div h2{
+    font-size: 19px;
+    color: white;
+    height: 32px;
+  }
+}

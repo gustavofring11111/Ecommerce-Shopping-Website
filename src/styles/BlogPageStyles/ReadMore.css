@@ -1,0 +1,9 @@
+.read-more-section{
+  width: 100%;
+  height: 210px;
+  background-image: url(../../Images/BlogPageImages/read-more-image.jpg);
+  background-size: cover;
+  background-size: center;
+  text-align: center;
+  padding: 70px 0;
+}

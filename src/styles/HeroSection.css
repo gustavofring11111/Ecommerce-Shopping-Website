@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;600&display=swap');
+
+.hero-section{
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  padding: 0 80px;
+
+  background-color:#E3E6F3;
+  height: 87vh;
+  background-image: url('../Images/hero-image.png');
+  background-size: cover;
+}
+
+h2{
+  font-size: 45px;
+  height: 60px;
+}
+
+.all-products-text{
+  color: #088178;
+}
+
+.save-more-text{
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgb(156, 156, 156);
+}
+
+.all-products-div{
+  display: flex;
+  flex-direction: column;
+  place-items: start;
+}
+
+.all-products-div button{
+  margin-top: 10px;
+  background-color: transparent;
+  border: none;
+  background-image: url('../Images/button-image.png');
+  background-repeat: no-repeat;
+  padding: 14px 80px 16px 80px;
+  color: #088178;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Edu TAS Beginner', cursive;
+}
+
+@media (max-width: 800px) {
+  .hero-section{
+    padding: 0 40px;
+    height: 70vh;
+    background-position: top 30% left 45%;
+  }
+
+
+  h2{
+    font-size: 2rem;
+    height: 45px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-section{
+    padding: 0 20px;
+    height: 70vh;
+    background-position: top 30% left 45%;
+  }
+
+  h2{
+    font-size: 1.5rem;
+    height: 40px;
+  }
+}

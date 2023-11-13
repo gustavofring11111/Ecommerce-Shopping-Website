@@ -1,0 +1,35 @@
+.WhoWeAre-container{
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  column-gap: 20px;
+  width: 100%;
+  padding: 50px 60px;
+}
+
+.WhoWeAre-container img{
+  width: 50%;
+  border-radius: 10px;
+}
+
+.WhoWeAre-container h1{
+  font-size: 40px;
+}
+
+.WhoWeAre-container p{
+  font-weight: 400;
+  color: rgb(110, 110, 110);
+  width: 100%;
+}
+
+@media (max-width:800px) {
+  .WhoWeAre-container {
+    flex-direction: column;
+  }
+
+  .WhoWeAre-container img{
+    width: 100%;
+  }
+
+}
+

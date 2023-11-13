@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.banner-big-div{
+  display: flex;
+  flex-direction: column;
+  padding: 80px 100px;
+  row-gap: 100px;
+}
+
+.banner-div{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  place-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.banner-div h4{
+  font-family: 'Merriweather', serif;
+}
+
+.banner-div img{
+  width: 50%;
+  height: 240px;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.text-div{
+  width: 50%;
+}
+
+.text-div p{
+  font-size: 13px;
+  font-weight: 400;
+  color: rgb(163, 163, 163);
+  width: 100%;
+}
+
+.banner-div button{
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
+  font-family: 'Merriweather', serif;
+  position: relative;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.banner-div button::after{
+  content: '';
+  width: 50px;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  top: 8px;
+  right: -60px;
+}
+
+.banner-div button:hover{
+  color: #088178;
+}
+.banner-div button:hover::after{
+  color: #088178;
+}
+
+.banner-div h1{
+  position: absolute;
+  top: -65px;
+  left: 0;
+  font-size: 70px;
+  font-weight: 700;
+  color: #c9cbce;
+  z-index: -2;
+}
